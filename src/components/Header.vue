@@ -25,7 +25,7 @@ export default {
             {
                 text: "Prodotti",
                 url: "#",
-                current: false,
+                current: true,
             },
             {
                 text: "Chi siamo",
