@@ -1,0 +1,21 @@
+@import "./variables.scss";
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* resret**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* containers*/
+
+.container {
+    max-width: $sizeContainer;
+    margin: 0 auto;
+}
