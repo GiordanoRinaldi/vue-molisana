@@ -72,6 +72,7 @@ export default {
 
 <style lang="scss" scoped>
   @import "@/assets/style/common";
+  @import "../assets/style/variables";
   section {
     background-image: url('~@/assets/images/bg-prods.jpg');
   }
