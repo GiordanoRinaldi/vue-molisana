@@ -2,7 +2,7 @@
   <footer>
 
       <div class="logo">
-          <img src="@/assets/images/logo.png" alt="Logo Molisana">
+          <img src="../assets/images/logo.png" alt="Logo Molisana">
       </div>
       <div class="link-footer">
         <div class="link-pastificio">
@@ -42,7 +42,7 @@ export default {
     width: 1200px;
     margin: 0 auto;
     padding-top: 40px;
-    background-image: url('~@/assets/images/footer.jpg');
+    background-image: url('../assets/images/footer.jpg');
     background-repeat: no-repeat;
     background-position-y: bottom;
   }

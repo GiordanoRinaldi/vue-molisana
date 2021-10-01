@@ -1,7 +1,7 @@
 <template>
   <header>
       <div class="logo">
-          <img src="@/assets/images/logo.png" alt="Logo Molisana">
+          <img src="../assets/images/logo.png" alt="Logo Molisana">
       </div>
       <nav>
           <ul>

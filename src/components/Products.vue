@@ -3,7 +3,7 @@
     <h2>Lista Prodotti</h2>
     <div class="prodotti">
       <div v-for="(pasta, index) in paste" :key="index" class="prodotto">
-        <img :src="require('@/assets/images/paste/'+ pasta.img)" :alt="pasta.nome">
+        <img :src="require('../assets/images/paste/'+ pasta.img)" :alt="pasta.nome">
         <h3>{{pasta.nome}}</h3>
       </div>
     </div>
@@ -74,7 +74,7 @@ export default {
   @import "@/assets/style/common";
   @import "../assets/style/variables";
   section {
-    background-image: url('~@/assets/images/bg-prods.jpg');
+    background-image: url('../assets/images/bg-prods.jpg');
   }
 
   .prodotti{
